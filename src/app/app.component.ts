@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Ang6Demo';
+  title = 'Routing and Navigation';
+
+  // declared array of months.
+  months = ["January", "Feburary", "March", "April", "May", 
+  "June", "July", "August", "September",
+  "October", "November", "December"];
+
+  isavailable = true;
+
+//   myClickFunction(event) { 
+//     //just added console.log which will display the event details in browser on click of the button.
+//     alert("Button is clicked");
+//     console.log(event);
+//  }
 }
